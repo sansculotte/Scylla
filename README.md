@@ -32,7 +32,7 @@ If you'd like to build Scylla, you need to take the following steps:
 2. Compile Scylla's Elm and Sass source files:
 ```
 elm make src/Main.elm --output static/js/elm.js --optimize
-sass static/scss/style.scss static/css/style.css
+npm run sass
 ```
 
 3. Open the provided `index.html` file in your browser. You can't do it by just loading the file in Chrome;

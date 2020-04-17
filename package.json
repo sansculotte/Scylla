@@ -1,0 +1,10 @@
+{
+  "name": "Scylla",
+  "version": "0.0.2",
+  "scripts": {
+    "sass": "node-sass static/sass/style.scss > static/css/style.css"
+  },
+  "devDependencies": {
+    "node-sass": "^4.1.1"
+  }
+}
